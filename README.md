@@ -17,3 +17,13 @@ To run the application using Maven:
 ```bash
 mvn javafx:run
 ```
+
+### Windows packaged app
+
+The Windows launcher is located at:
+
+```text
+target/dist/StudentAttendanceApp/StudentAttendanceApp.exe
+```
+
+Keep the entire `StudentAttendanceApp` folder together when moving or sharing the app; the launcher uses the adjacent `app` and `runtime` folders.
